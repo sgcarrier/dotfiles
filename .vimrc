@@ -52,6 +52,18 @@ set autoindent          " Auto-indent
 set nowrap              " Dont wrap text
 colorscheme desert
 
+"remaps to move lines around (insert, normal and visual mode
+nnoremap <C-j> :m .+1<CR>==
+nnoremap <C-k> :m .-2<CR>==
+inoremap <C-j> <Esc>:m .+1<CR>==gi
+inoremap <C-k> <Esc>:m .-2<CR>==gi
+vnoremap <C-j> :m '>+1<CR>gv=gv
+vnoremap <C-k> :m '<-2<CR>gv=gv
+
+"remap for another esc
+
+inoremap jj <esc>
+
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
