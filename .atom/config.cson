@@ -1,0 +1,18 @@
+"*":
+  build:
+    saveOnBuild: true
+  core: {}
+  editor:
+    showIndentGuide: true
+    softWrap: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "dc43f885-b36c-866e-0644-658a7624409d"
+  minimap:
+    plugins:
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0

@@ -1,0 +1,8 @@
+App load time: 1087ms
+/bin/sh: 1: coffee: not found
+
+(process:1828): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+
+(process:1880): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+
+(process:1942): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
